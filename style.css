@@ -1,3 +1,50 @@
-.title{
-    color:aquamarine;
+body{
+   
+    background-color: #e9e9e9;
 }
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: red;
+}
+.container{
+    margin: 20px 10px ;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#personal-infos , .skills-hobies-container{
+    display: flex;
+    
+}
+.skills-hobies-container{
+    justify-content: space-evenly;
+}
+
+#personal-infos{
+    justify-content: space-between;
+}
+.section-title{
+    font-size: 30px;
+    color: rgb(41, 0, 154);
+}
+.my-img{
+    width: 200px;
+}
+.infos{
+    font-size: 20px;
+}
+
+.text{
+    font-size: 20px;
+    line-height: 2.5;
+}
+.skills-hobies-container h3{
+    font-size: 25px;
+}
+li{
+    font-size: 25px;
+}
+
+
